@@ -23,3 +23,5 @@ def time_of_function():
 
     else:
         print(f'{is_even} время выполнения isEven')
+        result = my - is_even
+        print(f'isEven работает {result} секунд быстрее чем my_isEven')
